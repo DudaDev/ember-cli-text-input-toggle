@@ -8,6 +8,7 @@ export default Ember.Component.extend({
     value: '',
     inputValue: '',
     textMode: true,
+    notEmpty: true,
 
     // init
     setInputValue: Ember.on('init', function () {
@@ -45,7 +46,14 @@ export default Ember.Component.extend({
 
     actions: {
         save: function () {
-            this.set('value', this.get('inputValue'));
+            var inputValue = this.get('inputValue');
+            if (this.get('value') !== inputValue) {
+                if (this.get('notEmpty') && !inputValue.length) {
+                    return;
+                }
+                this.set('value', inputValue);
+                this.sendAction('afterUpdate', this.get('value'));
+            }
         },
         cancel: function () {
             this.set('inputValue', this.get('value'));

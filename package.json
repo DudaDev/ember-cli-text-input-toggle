@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-text-input-toggle",
-  "version": "0.0.1",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.2",
+  "description": "A text field that turns into an input",
   "directories": {
     "doc": "doc",
     "test": "tests"
