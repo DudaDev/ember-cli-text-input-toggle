@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-text-input-toggle",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -34,10 +34,15 @@
     "ember-try": "0.0.4"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "input",
+    "text",
+    "toggle"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.0.0"
+    "ember-cli-babel": "^5.0.0",
+    "ember-cli-font-awesome": "0.0.9",
+    "ember-cli-htmlbars": "^0.7.6"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"

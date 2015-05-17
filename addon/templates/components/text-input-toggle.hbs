@@ -1,0 +1,12 @@
+{{#if textMode}}
+    {{value}}
+    <span class="edit-text">{{fa-icon "pencil"}}</span>
+{{else}}
+    {{input value=inputValue}}
+    <div class="action-buttons">
+        <button class='save-text' {{action 'save'}}>{{fa-icon "check"}}</button>
+        <button class='cancel-edit' {{action 'cancel'}}>{{fa-icon "remove"}}</button>
+    </div>
+{{/if}}
+
+
