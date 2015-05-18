@@ -9,7 +9,7 @@ This README outlines the details of collaborating on this Ember addon.
 * `bower install`
 
 ## Dependencies
-ember-cli-font-awesome
+bootstrap glyphicons
 
 ## Running
 

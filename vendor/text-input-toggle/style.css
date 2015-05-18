@@ -33,6 +33,7 @@
 .text-input-toggle .edit-text {
     color: #707070;
     cursor: pointer;
+    text-align: center;
     -webkit-transition: opacity 150ms ease-in 0ms;
     transition: opacity 150ms ease-in 0ms;
     -moz-box-sizing: border-box;
@@ -52,9 +53,9 @@
     width: 24px;
 }
 
-.text-input-toggle .edit-text .fa-pencil {
-    position: absolute;
-    left: 5px;
+.text-input-toggle .glyphicon {
+    font-size: 13px;
+    z-index: 0;
 }
 
 .text-input-toggle .action-buttons {
@@ -67,7 +68,7 @@
     bottom: 0;
     top: 100%;
     height: 25px;
-    line-height: 22px;
+    line-height: 26px;
     border: 1px solid #ccc;
     border-top: none;
     border-radius: 0 0 3px 3px;
@@ -83,8 +84,6 @@
     cursor: pointer;
     width: 20px;
     height: 20px;
+    line-height: 20px;
     padding: 0;
-}
-.text-input-toggle .action-buttons button fa {
-    z-index: 0;
 }
