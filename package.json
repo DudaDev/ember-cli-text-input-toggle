@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-text-input-toggle",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A text field that turns into an input",
   "directories": {
     "doc": "doc",
