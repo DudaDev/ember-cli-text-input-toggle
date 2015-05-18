@@ -8,6 +8,9 @@ This README outlines the details of collaborating on this Ember addon.
 * `npm install`
 * `bower install`
 
+## Dependencies
+ember-cli-font-awesome
+
 ## Running
 
 * `ember server`
