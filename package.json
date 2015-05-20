@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-text-input-toggle",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A text field that turns into an input",
   "directories": {
     "doc": "doc",
@@ -11,7 +11,7 @@
     "build": "ember build",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/DudaDev/ember-cli-text-input-toggle.git",
   "engines": {
     "node": ">= 0.10.0"
   },
